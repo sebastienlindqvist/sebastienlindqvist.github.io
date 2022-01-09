@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<!--
+	Sebastien by HTML5 UP
+	
+-->
+<html>
+	<head>
+		<title>Hardware Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a> </a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Home Page</a></li>
+							<li class="active"><a >Hardware</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>MEng<br />
+									Final Group Project</h1>
+									<p>The final project I was in for university was an agricutural drone used for picking wheat samples in Australia beyond line of sight.</p>
+								</header>
+								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
+								<p>This project was proposed to our university from an Australia agricutural scientist. Before proposing this method,
+									 the scientists had to walk through the fields to collect the samples by hand and as Australia's farms are very large, this took them a long time to collect
+									the samples.
+									<br />
+									I was the sole electronic engineer who knew coding and wiring. So all those tasks left given to me. 
+									The pixhawk 4 was used as the autopilot of the drone to follow the predecided path given by the ardupilot ground control software. 
+									When the drone was above the place where it was chosen to do a sample collection, the Raspberry Pi took control of the autopilot and used computer vision
+									algorithm I wrote that used video data from a pi camera to figure out where the wheat plants are. 
+									<br />
+									Once the wheat plant was decided, the next algorithm started running which used a library called DroneKit which allowed me to send information to and from
+									the drone to the Raspberry Pi. This allowed me to position the drone directly above the plant with better accuracy than the autopilot on it's own.
+								 </p>
+								<p></p>
+							</section>
+
+					</div>
+<!--########################################################################################################################################################-->
+				<!-- Footer -->
+					<footer id="footer">
+					
+						<section class="split contact">
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
